@@ -1,6 +1,6 @@
 # attiny85-badusb
 
-# USB Kötücül Yazılım - APK Yükleme Scripti
+# Android-Reverse_Shell-apk
 
 Bu Arduino scripti, DigiSpark USB geliştirme kartı üzerinde çalışacak şekilde tasarlanmıştır. Temel olarak, hedef bilgisayara bir dizi tuş vuruşu gönderir, böylece hedef cihazda otomasyon sağlar. Bu script, hedef cihazın varsayılan tarayıcısını açarak belirli bir APK dosyasını indirir.
 
