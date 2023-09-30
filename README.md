@@ -68,8 +68,6 @@ This Arduino script is designed to run on a DigiSpark USB development board. Ess
 2. Connect to the target computer and run it.
 3. The script initiates the download process to the target device using the specified APK file path.
 
-For more information on how the script works, please refer to the [DigiQuack](https://github.com/CedArctic/digiQuack) documentation.
-
 *Note: This description clearly states the purpose and usage of the script. It is important to refrain from using the script for malicious purposes.*
 
 ---
